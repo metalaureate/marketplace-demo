@@ -69,10 +69,10 @@ export default function Sweep() {
   const [selectedTokenIds, setSelectedTokenIds] = useState<string[]>([]);
   const [sweepTotal, setSweepTotal] = useState(0);
   const [collectionId, setCollectionId] = useState(
-    "0xf5de760f2e916647fd766b4ad9e85ff943ce3a2b"
+    "0x877bec43dd0e3555eda424e0e0601ed0750aa3cc"
   );
   const [inputValue, setInputValue] = useState(
-    "0xf5de760f2e916647fd766b4ad9e85ff943ce3a2b"
+    "0x877bec43dd0e3555eda424e0e0601ed0750aa3cc"
   );
   const [progressText, setProgressText] = useState("");
 
